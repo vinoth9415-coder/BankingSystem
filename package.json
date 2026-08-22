@@ -1,0 +1,10 @@
+{
+  "name": "banking-system-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix banking-system/frontend",
+    "build": "npm run build --prefix banking-system/frontend",
+    "preview": "npm run preview --prefix banking-system/frontend"
+  }
+}

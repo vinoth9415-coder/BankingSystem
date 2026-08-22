@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build --prefix banking-system/frontend",
+  "outputDirectory": "banking-system/frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
