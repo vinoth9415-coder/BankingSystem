@@ -1,4 +1,5 @@
 {
+  "installCommand": "npm install --prefix banking-system/frontend",
   "buildCommand": "npm run build --prefix banking-system/frontend",
   "outputDirectory": "banking-system/frontend/dist",
   "framework": "vite",
